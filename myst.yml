@@ -1,0 +1,19 @@
+# myst.yml
+version: 1
+project:
+  title: 'LIGO Gravitational Wave Analysis'
+  authors:
+    - Ligo Scientific Collaboration (LSC) and Collin Tse
+  affiliations:
+    - UC Berkeley Statistics 159/259
+  binder: https://mybinder.org/v2/gh/UCB-stat-159-f25/hw3-cjtse/main
+  github: https://github.com/UCB-stat-159-f25/hw3-cjtse
+
+# Table of contents - ONLY include the landing page and notebook
+site:
+  template: book-theme
+  nav:
+    - title: Home
+      url: /README
+    - title: LIGO Tutorial
+      url: /LOSC_Event_tutorial
